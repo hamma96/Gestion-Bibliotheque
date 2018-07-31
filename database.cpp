@@ -1,13 +1,21 @@
 #include "database.h"
 #include <QDebug>
 #include <QFileInfo>
+<<<<<<< HEAD
 #include <QDir>
+=======
+>>>>>>> 02f0af2404ecd88c2fa5245ae04ada9c5700d253
 
 
 Database::Database()
 {
+<<<<<<< HEAD
      //path = "/home/hamma/Project/qt/Gestion_Bibliotheque/Gestion";
      path = "../Gestion_Bibliotheque/Gestion";
+=======
+    path = "/home/hamma/Project/qt/Gestion_Bibliotheque/Gestion";
+
+>>>>>>> 02f0af2404ecd88c2fa5245ae04ada9c5700d253
 }
 
 bool Database::dbConnect(){ // connect to the base

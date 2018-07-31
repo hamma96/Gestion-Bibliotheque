@@ -205,7 +205,11 @@ void MainWindow::on_listWidget_itemClicked(QListWidgetItem *item) // pour la ges
                 break;
             }
             case 2:{
+<<<<<<< HEAD
                 //liste des users"
+=======
+                //liste des users";
+>>>>>>> 02f0af2404ecd88c2fa5245ae04ada9c5700d253
                 qry.prepare("SELECT * FROM UserInfo");
                 id=
                 qry.exec();
